@@ -11,7 +11,7 @@ bot.command('start', (ctx) => {
       caption: 'Hai '+ctx.from.first_name+' Aku adalah bot untuk mendownload video/photo dari instagram, silahkan ketik /igdl lalu tempelkan link, reels juga bisa loh!.',
       parse_mode: 'Markdown',
       ...Markup.inlineKeyboard([
-        Markup.button.url('Subs Channel Bot', 't.me/nekozu'),
+        Markup.button.url('Developer📲', 't.me/FJ_GAMING'),
       ])
     }
   )
