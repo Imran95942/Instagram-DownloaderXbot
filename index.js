@@ -8,7 +8,7 @@ let pais = 'Tester'
 bot.command('start', (ctx) => {
   return ctx.replyWithPhoto({ url: 'https://telegra.ph/file/c3f19e89e109e1534b02a.jpg' },
     {
-      caption: 'Hai '+ctx.from.first_name+' Aku adalah bot untuk mendownload video/photo dari instagram, silahkan ketik /igdl lalu tempelkan link, reels juga bisa loh!.',
+      caption: 'Hai '+ctx.from.first_name+' Я бот, чтобы скачать видео / фото из инстаграмма!.',
       parse_mode: 'Markdown',
       ...Markup.inlineKeyboard([
         Markup.button.url('Developer📲', 't.me/isIam07'),
