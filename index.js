@@ -8,7 +8,9 @@ let pais = 'Tester'
 bot.command('start', (ctx) => {
   return ctx.replyWithPhoto({ url: 'https://telegra.ph/file/c3f19e89e109e1534b02a.jpg' },
     {
-      caption: 'Hai '+ctx.from.first_name+' Я бот, чтобы скачать видео / фото из инстаграмма!.',
+      caption: 'Hai '+ctx.from.first_name+'Бот позволяет сохранять фото, видео и описания из аккаунтов Instagram. 
+Чтоб получить описание и фото (видео) поста, просто вставьте ссылку на пост. 
+Для получения фото и описания страницы, оправьте никнейм вида.',
       parse_mode: 'Markdown',
       ...Markup.inlineKeyboard([
         Markup.button.url('Developer📲', 't.me/isIam07'),
@@ -57,7 +59,7 @@ bot.command('igdl', async (ctx) => {
 })
 
 console.log('Bot Running')
-console.log('Happy Using! Dont Forget To Subs @nekozu!!')
+console.log('Happy Using! Dont Forget To Subs @isIam07!!')
 
 //ctx.reply(`err`)
 bot.launch()
